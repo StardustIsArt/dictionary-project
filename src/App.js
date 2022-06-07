@@ -1,9 +1,16 @@
-import './App.css';
+import "./App.css";
+import logo from "./YociusProductionsSig.png"
 
 export default function App() {
   return (
     <div className="App">
-  Hello
+      <div className="App-header">
+        <img
+          src={logo}
+          className="App-logo img-fluid"
+          alt="logo"
+        ></img>
+      </div>
     </div>
   );
 }
