@@ -5,3 +5,9 @@
 .App-logo {
   max-width: 425px;
 }
+
+.footer {
+  margin: 0 auto;
+  padding-top: 15px;
+  font-size: smaller;
+}
