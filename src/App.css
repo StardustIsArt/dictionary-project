@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+.Results {
+  padding-left: 25px;
+  padding-top: 10px;
 }
 
 .App-logo {
