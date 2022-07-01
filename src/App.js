@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import logo from "./YociusProductionsSig.png";
 import Dictionary from "./Dictionary";
