@@ -1,20 +1,32 @@
-.App {
-  text-align: justify;
-  margin: 0 auto;
-  padding: 25px;
+body {
+  background: rgb(222, 240, 255);
+  text-transform: initial;
+}
+
+a {
+  color: #8449a4;
+}
+
+.App-header {
+  margin: 30px 0;
+}
+
+.App main {
+  margin: 14px auto;
 }
 
 .Results {
-  padding-left: 25px;
-  padding-top: 10px;
+  padding: 15px;
+  padding-top: 5px;
 }
 
 .App-logo {
   max-width: 425px;
+  display: block;
+  margin: 0 auto;
 }
 
-.footer {
-  margin: 0 auto;
-  padding-top: 15px;
-  font-size: smaller;
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
 }
