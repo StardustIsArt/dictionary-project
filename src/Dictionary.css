@@ -7,7 +7,10 @@
 }
 
 .Dictionary h1 {
-    text-align: center;
+    padding-left: 3px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 15px;
 }
 
 .Dictionary input {
@@ -16,10 +19,12 @@
   font-weight: 400;
   color: rgb(66, 105, 107);
   border: 1px solid #ddd;
+  border-radius: 7px;
 }
 
 .Dictionary .hint {
-    margin: 5px 9px;
+    margin: 7px 15px;
+    color: rgb(87, 105, 105);
 }
 
 

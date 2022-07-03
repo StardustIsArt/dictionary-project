@@ -4,7 +4,7 @@ import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState("Margarita");
+  let [keyword, setKeyword] = useState("sunset");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
@@ -36,13 +36,16 @@ export default function Dictionary() {
   if (loaded) {
     return (
       <div className="Dictionary">
-        <h1 className="text-decoration-underline mt-2">Dictionary</h1>
-        <h2 className="fs-4 text m-4">
-          What's the word you want to know more about?
-        </h2>
         <section>
+          <h1 className="fs-4 text">
+            What's the word you want to know more about?
+          </h1>
           <form onSubmit={handleSubmit}>
-            <input type="search" onChange={handleKeywordChange} />
+            <input
+              type="search"
+              onChange={handleKeywordChange}
+              placeholder="Sunset"
+            />
           </form>
           <div className="hint">
             Suggested words: beach, tropical, coconut, tequila...
