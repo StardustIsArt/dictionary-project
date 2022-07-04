@@ -1,3 +1,8 @@
+.App {
+padding: 60px 0 100px;
+max-width: 960px;
+}
+
 body {
   background: rgb(222, 240, 255);
   text-transform: initial;
@@ -12,7 +17,8 @@ a {
 }
 
 .App main {
-  margin: 14px auto;
+  margin: 25px auto;
+  padding: 25px;
 }
 
 .Results {
